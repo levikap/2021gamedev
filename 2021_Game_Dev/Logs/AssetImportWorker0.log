@@ -97,3 +97,27 @@ Received Import Request.
 Start importing Assets/Square.png using Guid(5b87f9713fdee4d5c909af158f7043dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7ee06d8534250ce05a515130f1316a') in 0.024362 seconds
   Import took 0.030773 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000929 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.2 MB.
+System memory in use after: 151.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2242.
+Total: 2.484430 ms (FindLiveObjects: 0.211387 ms CreateObjectMapping: 0.079437 ms MarkObjects: 2.087126 ms  DeleteObjects: 0.105073 ms)
+
