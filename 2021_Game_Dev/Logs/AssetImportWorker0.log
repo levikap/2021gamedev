@@ -377,3 +377,27 @@ System memory in use after: 151.3 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2270.
 Total: 1.702384 ms (FindLiveObjects: 0.180456 ms CreateObjectMapping: 0.048520 ms MarkObjects: 1.381304 ms  DeleteObjects: 0.091370 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001172 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1788 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.6 MB.
+System memory in use after: 151.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2273.
+Total: 2.014297 ms (FindLiveObjects: 0.205437 ms CreateObjectMapping: 0.068109 ms MarkObjects: 1.637493 ms  DeleteObjects: 0.101772 ms)
+
