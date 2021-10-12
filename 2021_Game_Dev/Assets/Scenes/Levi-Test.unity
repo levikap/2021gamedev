@@ -201,7 +201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 102928516856707022, guid: ee3d2ca101f724cfea6b7941d72f9577, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07
+      value: 0.32
       objectReference: {fileID: 0}
     - target: {fileID: 102928516856707022, guid: ee3d2ca101f724cfea6b7941d72f9577, type: 3}
       propertyPath: m_LocalPosition.z
@@ -255,6 +255,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   melee_field: {fileID: 3803988689189462476, guid: 83dda472098f04e5d9a8647148911b8b, type: 3}
+--- !u!1 &953866174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3803988689189462476, guid: 83dda472098f04e5d9a8647148911b8b, type: 3}
+  m_PrefabInstance: {fileID: 1559141258}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &953866179
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953866174}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
 --- !u!1001 &1005913058
 PrefabInstance:
   m_ObjectHideFlags: 0
