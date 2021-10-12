@@ -17,7 +17,6 @@ public class Melee : MonoBehaviour
     {
          if(Input.GetKeyDown("e"))
         {
-            Debug.Log("attacking");
             melee();
         }
     }
