@@ -13,6 +13,7 @@ public class movement : MonoBehaviour
     float maxSpeed = 10f;
     float speed = 0f;
     float velocityStopValue = 0.3f;
+    float dashMultiplier = 100.0f;
 
     float moveLimiter = 0.7f;
     public float runSpeed = 20.0f;
@@ -29,6 +30,12 @@ public class movement : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");
         if(Input.GetKey("left shift")) {
             slide = true;
+        }
+
+        if(Input.GetKeyDown("space"))
+        {
+            Debug.Log("dashing");
+            dash();
         }
 
         if(slide) {
@@ -66,5 +73,25 @@ public class movement : MonoBehaviour
             } else {
                 rb.velocity = new Vector2(0, 0);
             }
+    }
+
+    private void dash()
+    {
+        float dash_x;
+        float dash_y;
+        if(horizontal == 0 && vertical == 0)
+        {
+            dash_x = 0f;
+            dash_y = dashMultiplier;
+        } else
+        {
+            dash_x = horizontal * dashMultiplier;
+            dash_y = vertical * dashMultiplier;
+        }
+
+        float step = dashMultiplier * Time.deltaTime;
+        Vector3 target = new Vector3(transform.position.x + dash_x, transform.position.y + dash_y, transform.position.z);
+
+        transform.position = Vector3.MoveTowards(transform.position, target, step);
     }
 }
